@@ -1,8 +1,10 @@
 # Connexió remota SSH a la MV
 
-El protocol **SSH o Secure Shell**, és un protocol d'administració remota que permet als usuaris controlar i gestionar els seus servidors remots a través d'Internet mitjançant un mecanisme d'autenticació. El protocol SSH es basa en una arquitectura client-servidor que connecta un client SSH a un servidor SSH. El protocol SSH es pot utilitzar per a qualsevol tipus de connexió segura, inclosos els terminals de text, els terminals gràfics i la transferència de fitxers. El protocol SSH utilitza el port TCP 22 de forma predeterminada.
+El protocol **SSH o Secure Shell**, és un protocol d'administració remota que permet als usuaris controlar i gestionar els seus servidors remots a través d'Internet mitjançant un mecanisme d'autenticació. El protocol **SSH** es basa en una arquitectura client-servidor que connecta un *client SSH* a un *servidor SSH*. 
 
-Quan hem configurat la màquina virtual, hem activat el servei SSH. Això ens permetrà accedir a la màquina virtual de forma remota mitjançant una terminal de la màquina real.
+El protocol **SSH** es pot utilitzar per a qualsevol tipus de connexió segura, inclosos els terminals de text, els terminals gràfics i la transferència de fitxers. El protocol *SSH* utilitza el port **TCP 22** de forma predeterminada.
+
+Quan hem configurat la màquina virtual, hem activat el servei *SSH*. Això ens permetrà accedir a la màquina virtual de forma remota mitjançant una terminal de la màquina real.
 
 * La màquina virtual té assignada l'adreça IP *10.0.2.15*.
 * La redirecció de ports envia el trànsit de la interfície de loopback (*127.0.0.1:2222*) a l'adreça IP de la màquina virtual (*10.0.2.15:22*) per al servei **SSH**.

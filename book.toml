@@ -7,3 +7,6 @@ title = "HandsOns en Sistemes Operatius per a estudiants del Grau en Enginyeria 
 
 [output.html.playground]
 editable = true
+
+[output.html.code.hidelines]
+sh = "~"

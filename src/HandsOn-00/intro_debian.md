@@ -2,7 +2,7 @@
 
 ## Kernel de Linux
 
-El kernel és el component central del sistema operatiu Linux que actua com a intermediari entre les aplicacions i el maquinari del sistema. 
+El kernel és el component central del sistema operatiu Linux, que actua com a intermediari entre les aplicacions i el maquinari del sistema.
 
 Té diverses funcions clau:
 
@@ -19,13 +19,7 @@ El kernel de Linux és essencial per al funcionament del sistema operatiu i prop
 
 ![Diagrama del Kernel de Linux, obtingut de kernel_linux_costa](https://graphviz.org/Gallery/directed/Linux_kernel_diagram.svg)
 
-La figura anterior  extreta de [https://makelinux.github.io/kernel_map/](https://github.com/makelinux/linux_kernel_map/blob/HEAD/Linux_kernel_diagram) mostra la estructura i els components principals del kernel de Linux. En aquest diagrama es representen els components del sistema en rosa, els components relacionats amb el processament en vermell, els components relacionats amb l'accés a la memòria en verd, els components relacionats amb la xarxa en blau-cel i els components relacionats amb les interfícies d'usuari en lila. Aquest diagrama proporciona una visió general de l'estructura i les interaccions del nucli de Linux, mostrant com es divideix en diferents components i com s'interrelacionen per proporcionar les funcionalitats del sistema operatiu.
-
-Algunes de les parts clau que es mostren en el diagrama inclouen:
-
-Aquesta figura. Representa la estructura i els components prinicipals del kernel de linux. 
-
-En rosa es mostren els componenets del sistema com les *crides a sistema*, els sistemes de fitxers *proc* i *sysfs*, el model de dispositiu i els controladors de bus. Aquests components són els que permeten la interacció amb el sistema operatiu.
+La figura anterior  extreta de [https://makelinux.github.io/kernel_map/](https://github.com/makelinux/linux_kernel_map/blob/HEAD/Linux_kernel_diagram) mostra l'estructura i els components principals del kernel de Linux. En aquest diagrama, es representen els components del sistema en rosa, els components relacionats amb el processament en vermell, els components relacionats amb l'accés a la memòria en verd, els components relacionats amb la xarxa en blau-cel i els components relacionats amb les interfícies d'usuari en lila. Aquest diagrama proporciona una visió general de l'estructura i les interaccions del nucli de Linux, mostrant com es divideix en diferents components i com s'interrelacionen per proporcionar les funcionalitats del sistema operatiu.
 
 Algunes de les parts clau que es mostren en el diagrama inclouen:
 
@@ -47,12 +41,12 @@ Les distribucions Linux són versions específiques que incorporen el **kernel d
 | **Debian**  | Centrada en l'estabilitat, la seguretat i el programari lliure |
 | Kali Linux  | Distribució especialitzada en seguretat i pentesting         |
 
- Les distribucions Linux es diferencien en diversos aspectes, com el conjunt de programari inclòs, la configuració del sistema i la filosofia de desenvolupament. Aquesta varietat de distribucions Linux ofereix als usuaris diferents opcions per satisfer les seves necessitats i preferències. Cada distribució té els seus propis avantatges i aborda diferents casos d'ús.
+Les distribucions Linux es diferencien en diversos aspectes, com el conjunt de programari inclòs, la configuració del sistema i la filosofia de desenvolupament. Aquesta varietat de distribucions Linux ofereix als usuaris diferents opcions per satisfer les seves necessitats i preferències. Cada distribució té els seus propis avantatges i aborda diferents casos d'ús.
 
 
 ## Debian
 
-Debian és un sistema operatiu open-source basat en el kernel de GNU/Linux. Per tant, es gratuït, desenvolupat i mantingut per la comunitat. 
+Debian és un sistema operatiu open-source basat en el kernel de **GNU/Linux**, i, per tant, és gratuït i desenvolupat i mantingut per la comunitat.
 
 [![Debian is 30 this year. Here's why it's still worth using.](https://img.youtube.com/vi/jhFH03t4HUY/mqdefault.jpg)](https://www.youtube.com/watch?v=jhFH03t4HUY)
 
@@ -64,8 +58,7 @@ Alguns dels aspectes clau de Debian són:
 
 * **Desenvolupament comunitari**: Projecte col·laboratiu. El desenvolupament es realitza de manera oberta i transparent, amb la participació de la comunitat en la presa de decisions.
 
-* **Estabilitat i fiabilitat**: Reconegut per la seva estabilitat i fiabilitat. Les versions estables passen per un rigorós procés de prova i són lliberades quan s'assoleixen els estàndards d'estabilitat requerits.
-
+* **Estabilitat i fiabilitat**: Reconegut per la seva estabilitat i fiabilitat. Les versions estables passen per un rigorós procés de prova i són alliberades quan s'assoleixen els estàndards d'estabilitat requerits.
 
 ### Versions de Debian
 
@@ -74,3 +67,11 @@ Alguns dels aspectes clau de Debian són:
 * **Testing (Proves)**: És una edició en constant desenvolupament, amb versions més recents de programari però amb una menor estabilitat que l'edició estable. És adequada per a usuaris que volen tenir les últimes funcionalitats i estan disposats a assumir un cert grau de risc.
 
 * **Unstable (Inestable)**: És l'edició més avançada i experimental. Conté les últimes versions de programari, però pot tenir problemes de compatibilitat i inestabilitat. És adequada per a desenvolupadors i usuaris avançats que volen contribuir al desenvolupament de Debian.
+
+### Exemples i casos d'ús de Debian
+
+* **Servidors**: Debian és ampliament utilitzat com a sistema operatiu per a servidors web. La seva estabilitat i seguretat en fan una opció ideal per a implementacions de servidors crítics, com ara llocs web d'empreses, botigues en línia, portals de notícies i blogs.
+
+* **Centres de dades i computació en núvol**: Debian és una opció popular per a centres de dades i entorns de computació en núvol. La seva fiabilitat i facilitat d'implementació fan que sigui una elecció adequada per a grans infraestructures i sistemes distribuïts.
+
+* **Sistemes empotrats i IoT**: Debian també s'utilitza en sistemes empotrats i dispositius d'Internet de les coses (IoT). La seva versatilitat i la capacitat de personalitzar la instal·lació la fan ideal per a projectes amb requisits específics.
