@@ -1,1 +1,0 @@
-# Tour per a Debian
