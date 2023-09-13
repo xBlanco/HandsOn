@@ -1,6 +1,6 @@
 [book]
 authors = ["JordiMateoUdL"]
-language = "en"
+language = "ca"
 multilingual = false
 src = "src"
 title = "HandsOns en Sistemes Operatius per a estudiants del Grau en Enginyeria Informàtica"
