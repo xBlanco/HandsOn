@@ -5,6 +5,7 @@
 - [Introducció a Debian](./HandsOn-00/intro_debian.md)
 - [Primers passos](./HandsOn-00/primers_passos.md)
     - [Instal·lació i Configuració UTM](./HandsOn-00/utm.md)
+    - [Instal·lació i Configuració VirtualBox](./HandsOn-00/vbox.md)
     - [Instal·lació del Sistema Operatiu](./HandsOn-00/inst_os.md)
 - [Connexió remota a la Màquina Virtual](./HandsOn-00/ssh.md)
 - [Tour per a Debian](./HandsOn-00/debian_tour.md)

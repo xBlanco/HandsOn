@@ -86,7 +86,7 @@
 
 22. Configureu el programari: En aquest curs no necessitem finestres, ho treballarem tot en l'àmbit de la terminal! Deseleccioneu **Desktop i GNOME**. i seleccioneu **SSH**.
 
-![](../HandsOn-00/figs/debian12/25.png){width=50%}
+![](../HandsOn-00/figs/debian12/25.png)
 
 23. Configureu el programari i seleccioneu *Continuar*:
 
