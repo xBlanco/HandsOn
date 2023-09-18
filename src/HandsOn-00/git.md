@@ -75,6 +75,8 @@ Reemplaça *TOKEN* pel token d'accés que has generat al pas anterior. Això emm
 git config --global --get github.token
 ```
 
+11. Visteu aquest enllaç i seguiu les instruccions **[course](https://classroom.github.com/a/LeE0ra_2)**.
+
 11. Clonarem el repositori plantilla pel desenvolupament del curs:
 
 ```sh
