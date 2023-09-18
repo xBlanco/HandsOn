@@ -9,6 +9,7 @@
     - [Instal·lació del Sistema Operatiu](./HandsOn-00/inst_os.md)
 - [Connexió remota a la Màquina Virtual](./HandsOn-00/ssh.md)
 - [Tour per a Debian](./HandsOn-00/debian_tour.md)
+- [VSCode](./HandsOn-00/vscode.md)
 - [Reptes](./HandsOn-00/reptes.md)
     - [Configurant Git i Github](./HandsOn-00/git.md)
     - [Configurant l'Entorn de Desenvolupament](./HandsOn-00/dev.md)
