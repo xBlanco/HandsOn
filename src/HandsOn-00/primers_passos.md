@@ -17,7 +17,7 @@ Una manera de començar a experimentar amb Debian és configurar una màquina vi
 
 
 2. Descarregueu la imatge del sistema operatiu: Utiltizarem la versió **[Debian 12.0](https://www.debian.org/releases/stable/i386/release-notes/ch-whats-new.html)**.
-    * Descarregar per a [**x86**](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.0.0-amd64-netinst.iso)
+    * Descarregar per a [**x86**](https://cdimage.debian.org/debian-cd/12.1.0/amd64/iso-cd/debian-12.1.0-amd64-netinst.iso)
     * Descarregar per a [**ARM**](https://cdimage.debian.org/debian-cd/current/arm64/iso-cd/debian-12.0.0-arm64-netinst.iso)
 
 3. Creació de la màquina virtual amb les següents característiques:
