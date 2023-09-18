@@ -1,5 +1,7 @@
 # Summary
 
+-[Contribueix](./CONTRIBUTING.md)
+
 # HandsOn-00: DebianLab
 - [Objectius](./HandsOn-00/objectius.md)
 - [Introducció a Debian](./HandsOn-00/intro_debian.md)
