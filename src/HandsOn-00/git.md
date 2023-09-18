@@ -75,16 +75,28 @@ Reemplaça *TOKEN* pel token d'accés que has generat al pas anterior. Això emm
 git config --global --get github.token
 ```
 
-11. Visteu aquest enllaç i seguiu les instruccions **[course](https://classroom.github.com/a/LeE0ra_2)**.
+11. Visteu aquest enllaç i seguiu les instruccions **[course](https://classroom.github.com/a/LeE0ra_2)**. En primer lloc os indicarà que heu d'acceptar la tasca. Veure imatge:
 
-11. Clonarem el repositori plantilla pel desenvolupament del curs:
+![](../HandsOn-00/figs/git/link.png)
+
+Un cop cliqueu a acceptar, us apareixerà la següent pantalla:
+
+![](../HandsOn-00/figs/git/accept.png)
+
+12. Espereu uns instants i en el vostre compte de github us apareixerà un nou repositori amb el nom del curs. Aneu al repositori i copieu el link per a clonar-lo. Heu de fer click a **code**. Veure imatge:
+
+![](../HandsOn-00/figs/git/repo.png)
+
+
+13. Clonarem el repositori plantilla pel desenvolupament del curs:
 
 ```sh
-git clone https://github.com/OS-GEI-IGUALADA-2223/course-X.git
+git clone https://github.com/OS-GEI-IGUALADA-2223/handson00-X.git
+# On X ha de ser el vostre usuari de github
 ```
 
-Recorda modificar *X* pel teu usuari de GitHub.
-
 Git t'hauria de demanar les credencials la primera vegada. Introdueix el teu nom d'usuari de GitHub i, a continuació, el teu token d'accés com a contrasenya. Assegura't de copiar el token complet sense cap modificació. Després de fer-ho, Git clonarà el repositori plantilla al teu sistema Debian i en futures accions no et demanarà les credencials.
+
+**NOTA**: El primer cop que feu un clone la terminal us demanarà les credencials de github. Introduïu el vostre **usuari** i el **token** que heu generat abans.
 
 Us recomano per ampliar contiguts sobre Git i GitHub el curs següent: [https://github.com/mouredev/hello-git](https://github.com/mouredev/hello-git).
