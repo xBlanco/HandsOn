@@ -17,3 +17,7 @@
     - [Configurant l'Entorn de Desenvolupament](./HandsOn-00/dev.md)
     - [Personalitzant la shell](./HandsOn-00/shell.md)
 
+# HandsOn-01: Programació bàsica amb C
+- [Pokemon](./HandsOn-01/pokemon.md)
+- [DebianBin](./HandsOn-01/bin.md)
+- [Reptes](./HandsOn-01/reptes.md)
