@@ -634,14 +634,14 @@ Es recomanable sempre que programem llibreries incloure un fitxer de test on pug
 #include "pokemon.h"
 
 void test_crear_pokemon() {
-    Pokemon pikachu = create_pokemon(25, "Pikachu", 0.4, 6.0);
-    if (pikachu.pokemon_id != 25 || strcmp(pikachu.name, "Pikachu") != 0 ||
-        pikachu.height != 0.4 || p.weight != 6.0) {
+    Pokemon p = create_pokemon(25, "Pikachu", 0.4, 6.0);
+    if (p.pokemon_id != 25 || strcmp(p.name, "Pikachu") != 0 ||
+        p.height != 0.4 || p.weight != 6.0) {
         printf("ERROR: test_crear_pokemon NO SUPERAT. Dades incorrectes.\n");
     } else {
         printf("Test de test_crear_pokemon passat amb èxit.\n");
     }
-    destroy_pokemon(pikachu);
+    destroy_pokemon(p);
 }
 
 int main() {
